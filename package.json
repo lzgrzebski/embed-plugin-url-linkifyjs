@@ -19,5 +19,6 @@
   "dependencies": {
     "just-extend": "1.1.27",
     "linkifyjs": "^2.1.5"
-  }
+  },
+  "devDependencies": {}
 }
