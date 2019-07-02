@@ -1,6 +1,6 @@
 {
   "name": "embed-plugin-url-linkifyjs",
-  "version": "5.0.3",
+  "version": "5.0.4",
   "description": "An embed-js plugin to coverts URLs to anchor tags.",
   "main": "src/index.js",
   "repository": {
@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/ritz078/embed.js#readme",
   "dependencies": {
-    "just-extend": "1.1.27",
-    "linkifyjs": "^2.1.5"
+    "just-extend": "4.0.2",
+    "linkifyjs": "^2.1.8"
   },
   "devDependencies": {}
 }
