@@ -1,5 +1,5 @@
 import extend from "just-extend"
-import linkify from 'linkifyjs/string'
+import linkify from 'linkifyjs/html'
 
 const id = "url"
 
