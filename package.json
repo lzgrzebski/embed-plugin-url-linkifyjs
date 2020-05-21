@@ -1,14 +1,16 @@
 {
   "name": "embed-plugin-url-linkifyjs",
-  "version": "5.0.5",
+  "version": "5.0.6",
   "description": "An embed-js plugin to coverts URLs to anchor tags.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "module": "src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lzgrzebski/embed-plugin-url-linkifyjs.git"
   },
   "files": [
-    "src"
+    "src",
+    "dist"
   ],
   "author": "Ritesh Kumar & lzgrzebski",
   "license": "MIT",
@@ -18,7 +20,14 @@
   "homepage": "https://github.com/ritz078/embed.js#readme",
   "dependencies": {
     "just-extend": "4.0.2",
-    "linkifyjs": "^2.1.8"
+    "linkifyjs": "^2.1.9"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6"
+  },
+  "scripts": {
+    "build": "babel src -d dist"
+  }
 }
